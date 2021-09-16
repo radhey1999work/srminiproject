@@ -1,13 +1,13 @@
 import React from 'react';
 import { TouchableOpacity, SafeAreaView, StyleSheet, Text, TextInput } from 'react-native';
+import { getCalories } from '../Backend/calories';
 
 export default function ManualBarcodeScreen({ navigation }) {
   const [barcode, setBarcode] = React.useState("");
 
   const searchBarcode = () => {
-    console.log('barcode', barcode)
-    navigation.navigate('ResultScreen');
-    // TODO: Call backend function and show results on ResultScreen
+    const calories = getCalories(barcode);
+    navigation.navigate('ResultScreen', { calories });
   }
 
   return (
