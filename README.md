@@ -1,6 +1,6 @@
 # srminiproject
 
-##### Mella's Logs
+### Mella's Logs
 9/6 Monday
 - First meeting with partner Radhey
 - Discuss experiences, choose choice of tech (Flutter)
