@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, Dimensions } from 'react-native';
 import { Camera } from 'expo-camera';
+import { getCalories } from '../Backend/calories';
 
 export default class CameraScreen extends React.Component {
 
@@ -28,9 +29,8 @@ export default class CameraScreen extends React.Component {
 
   searchBarcode = (barcode) => {
     this.setState({ barcode });
-    console.log('barcode', barcode)
-    this.props.navigation.navigate('ResultScreen');
-    // TODO: Call backend function and show results on ResultScreen
+    const calories = getCalories(barcode);
+    this.props.navigation.navigate('ResultScreen', { calories });
   }
 
   render() {
