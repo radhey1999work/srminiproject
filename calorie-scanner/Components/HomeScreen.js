@@ -9,10 +9,12 @@ export default function HomeScreen({ navigation })
       <Button
         title = "Scan the Barcode"
         onPress = {() => navigation.navigate('ScannerScreen')}
+        accessibilityLabel="Scan the barcode"
       />
       <Button
         title = "Type in the Barcode"
         onPress = {() => navigation.navigate('ManualBarcodeScreen')}
+        accessibilityLabel="Enter in the barcode via the keyboard"
       />
     </View>
   );
