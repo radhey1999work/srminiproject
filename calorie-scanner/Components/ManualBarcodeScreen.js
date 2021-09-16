@@ -37,15 +37,18 @@ const styles = StyleSheet.create({
     margin: 12
   },
   buttonLabel: {
+    color: "#006400",
     fontSize: 20,
     fontWeight: "bold",
     marginBottom: 10,
     textAlign: "center"
   },
   buttonText: {
+    color: "#98FB98",
     fontWeight: "500"
   },
   textInput: {
+    borderColor: "#006400",
     borderRadius: 10,
     borderWidth: 1,
     margin: 1,
@@ -53,7 +56,7 @@ const styles = StyleSheet.create({
   },
   searchButton: {
     alignItems: "center",
-    backgroundColor: "#32CD32",
+    backgroundColor: "#006400",
     margin: 15,
     padding: 10,
     borderRadius: 15
