@@ -1,5 +1,13 @@
 # srminiproject
 
+### Demo
+
+https://user-images.githubusercontent.com/56775136/133828666-0a40e0b1-c692-4300-aa77-e49883cb91a0.MP4
+
+Description:
+From the home screen you could go to 2 different screens. Top button goes to camera screen, which scans barcodes. Once a barcode is detected, the result screen displays. Bottom button goes to the screen where you could manually type in the barcode. Once you submit the form, the result screen displays.
+
+
 ### Mella's Logs
 9/6 Monday
 - First meeting with partner Radhey
